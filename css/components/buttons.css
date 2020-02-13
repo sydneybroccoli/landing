@@ -1,0 +1,42 @@
+.btn-medium {
+  background-color: transparent;
+  border: 1px solid silver;
+  border-radius: 50px;
+  text-decoration: none;
+  padding: 15px 25px;
+  color: silver;
+  transition: 0.1s;
+  font-weight: lighter;
+}
+.btn-medium:hover {
+  color: grey;
+  border: 1px solid grey;
+}
+
+.btn-treehouse {
+  text-decoration: none;
+ background-color: #6AD58B;
+ border-radius: 5px;
+ color: white;
+ font-weight: bold;
+ padding: 15px 25px;
+ transition: background 0.3s ease;
+}
+.btn-treehouse:hover {
+  background-color:  #3ac162;
+}
+
+.btn-extra {
+  background-color: transparent;
+  border: 1px solid red;
+  text-decoration: none;
+  border-radius: 25px;
+  padding: 15px 25px;
+  color: darkgrey;
+  font-weight: 600;
+  transition: 0.5s ease;
+}
+.btn-extra:hover {
+ border: 1px dashed red;
+ letter-spacing: 5px;
+}

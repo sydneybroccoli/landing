@@ -1,0 +1,31 @@
+.container {
+  margin: 0 auto;
+}
+
+.banner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 400px;
+  color: white;
+  margin: 0 25px;
+}
+.banner-container a {
+  margin-top: 20px;
+  align-self: flex-start;
+}
+
+.cards-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  align-content: space-between;
+  justify-content: space-around;
+  margin: 5px 20px;
+}
+
+.social-container {
+  display: flex;
+  justify-content: center;
+}
